@@ -1,0 +1,37 @@
+body {
+	background-color: #1A2325;
+	margin: 0px;
+}
+
+div#top_line {
+	background-color: #F8695A;
+    height: 2px;
+}
+
+div#logo_box {
+	background-color: #F8695A;
+    height: 35px;
+    width: 50px;
+    color: #FFF;
+    margin-left: 76px;
+    padding-left: 18px;
+    text-align: center;
+    padding-right: 18px;
+    padding-top: 50px;
+}
+
+div
+{
+    font-family: LFT_Etica;
+}
+
+
+@font-face {
+    font-family: 'LFT Etica';
+    src: url('LFT_Etica_Reg.otf');
+    src: url('LFT_Etica_Book.otf') format('book'),
+         url('LFT_Etica_Semibold.otf') format('semibold'),
+    font-weight: normal;
+    font-style: normal;
+
+}
