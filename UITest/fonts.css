@@ -1,0 +1,29 @@
+div
+{
+    font-family: LFT_Etica;
+}
+
+
+@font-face {
+    font-family: 'lft-etica';
+    src: url('fonts/LFT_Etica_Reg.otf') format('opentype');
+
+}
+
+@font-face {
+    font-family: 'lft-etica-semibold';
+    src: url('fonts/LFT_Etica_Semibold.otf') format('opentype');
+
+}
+
+@font-face {
+    font-family: 'lft-etica-book';
+    src: url('fonts/LFT_Etica_Book.otf') format('opentype');
+
+}
+
+@font-face {
+    font-family: 'quatro-slab';
+    src: url('fonts/QuatroSlab_Regular.otf') format('opentype');
+
+}
