@@ -20,18 +20,63 @@ div#logo_box {
     padding-top: 50px;
 }
 
-div
-{
-    font-family: LFT_Etica;
+div#item_container{
+	margin: 50px;
 }
 
+h2, .price{
+	color: #fff;
+	font-family: 'quatro-slab';
+}
 
-@font-face {
-    font-family: 'LFT Etica';
-    src: url('LFT_Etica_Reg.otf');
-    src: url('LFT_Etica_Book.otf') format('book'),
-         url('LFT_Etica_Semibold.otf') format('semibold'),
-    font-weight: normal;
-    font-style: normal;
+h2 {
+	font-family: 'quatro-slab';
+	font-weight: 100;
+	font-size: 30px;
+    margin-bottom: 0px;
+}
+h3 {
+	color: #494F50;
+	width: 300px;
+	margin-top: 10px;
+    font-family: 'lft-etica';
+    font-weight: 100;
+    font-size: 14px;
+}
 
+p {
+	color: #AAACAC;
+	width: 400px;
+	font-family: 'lft-etica';
+	font-weight: 100;
+    line-height: 23px;
+    display: inline;
+}
+
+button {
+	color: #fff;
+	background-color: #02BCBF;
+	width: 115px;
+    height: 40px;
+    border: solid 1px #4DD9DA;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+a {
+	font-family: 'lft-etica';
+	color: #02BCBF;
+	text-decoration: none;
+}
+
+.price_and_buy {
+	padding-top: 45px;
+}
+
+.item_holder {
+	width: 370px;
+}
+
+.paragraph_space {
+	height: 13px;
 }
