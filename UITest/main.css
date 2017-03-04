@@ -20,21 +20,43 @@ div#logo_box {
     padding-top: 50px;
 }
 
-div#item_container{
-	margin: 50px;
+div#items_container{
+	margin: 30px;
 }
 
-h2, .price{
-	color: #fff;
-	font-family: 'quatro-slab';
+/* items within the items_container*/
+
+/* 2 major containers, for item, photo and data */
+.item_holder {
+	width: 100%;
+	height: 650px;
 }
 
+.photo_holder {
+	display: block;
+	width: 500px;
+	height: 600px;
+	margin-right: 3%;
+	background-color: white;
+	float: right;
+}
+
+/*styles for both the item before and after the image on small screen*/
+.before_image, .after_image {
+	float: left;
+	width: 33%;
+	min-width: 250px;
+}
+
+/* items in before_image */
 h2 {
+	color: #fff;
 	font-family: 'quatro-slab';
 	font-weight: 100;
 	font-size: 30px;
     margin-bottom: 0px;
 }
+
 h3 {
 	color: #494F50;
 	width: 300px;
@@ -44,6 +66,7 @@ h3 {
     font-size: 14px;
 }
 
+/* Items in after image */
 p {
 	color: #AAACAC;
 	width: 400px;
@@ -51,6 +74,30 @@ p {
 	font-weight: 100;
     line-height: 23px;
     display: inline;
+}
+
+.paragraph_space {
+	height: 13px;
+}
+
+.link_spacer {
+	height: 30px;
+}
+
+a {
+	font-family: 'lft-etica';
+	color: #02BCBF;
+	text-decoration: none;
+}
+
+/* Button and price container */
+.price_and_buy {
+	padding-top: 45px;
+}
+
+.price{
+	color: #fff;
+	font-family: 'quatro-slab';
 }
 
 button {
@@ -63,58 +110,14 @@ button {
     margin-left: 15px;
 }
 
+/* line between items */
 hr {
 	border: .5px solid #31393B;
     margin-bottom: 55px;
 }
 
-a {
-	font-family: 'lft-etica';
-	color: #02BCBF;
-	text-decoration: none;
-}
-
-.price_and_buy {
-	padding-top: 45px;
-}
-
-.item_holder {
-	width: 100%;
-	height: 650px;
-}
-
-.data_holder{
-	float: left;
-	width: 33%;
-	margin-left: 5%;
-	min-width: 350px
-
-}
-.photo_holder{
-	display: block;
-	width: 500px;
-	height: 600px;
-	margin-right: 100px;
-	margin-left: 75px;
-	background-color: white;
-	float: right;
-}
-
-.before_image, .after_image {
-	float: left;
-	width: 33%;
-	min-width: 250px;
-}
-
-.paragraph_space {
-	height: 13px;
-}
-
-.spacer {
-	height: 30px;
-}
-
-@media screen and (max-width: 1108px) {
+/* media queries */
+@media screen and (max-width: 900px) {
 	.photo_holder{
 		margin-left: 5px;
 		margin-right: 200px;
@@ -133,7 +136,7 @@ a {
 	}
 }
 
-@media screen and (max-width: 840px){
+@media screen and (max-width: 840px) {
 	.photo_holder{
 		margin-left: 0px;
 		margin-top: 10px;
@@ -142,11 +145,13 @@ a {
 		background-color: #bfd2a5;
 		margin-right: 150px;
 	}
+	.item_holder{
+		height: 1100px;
+	}
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 450px) {
 	.item_holder {
-		height: 1200px;
+		height: 1300px;
 	}
-
 }
